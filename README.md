@@ -1,2 +1,2 @@
-# techness_react
-Techness_website
+# techness-web
+Techness Solutions
