@@ -1,31 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import { useEffect } from "react";
-import { Link } from "react-scroll";
-
-const duration = 500;
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
+
+  const navigate = useNavigate();
+  const[active_head, setActiveHead] = useState('')
   useEffect(() => {
+    setActiveHead(window.location.pathname);
     window.addEventListener("scroll", isSticky);
     return () => {
       window.removeEventListener("scroll", isSticky);
     };
   });
 
+  console.log(active_head, 'ff');
   const isSticky = (e) => {
+    console.log('kk');
     const header = document.querySelector(".navbar");
     const scrollTop = window.scrollY;
     scrollTop >= 150
       ? header.classList.add("affix")
       : header.classList.remove("affix");
   };
-
+  
   return (
     <div>
       <header className="header">
         <nav className="navbar navbar-expand-lg fixed-top bg-transparent">
           <div className="container">
-            <a className="navbar-brand" href="javascript:void(0);">
+            <a className="navbar-brand" onClick={() => navigate('/')}>
               <h5 className="text-white mt-3">Techness Solutions</h5>
             </a>
             <button
@@ -47,33 +51,33 @@ export default function Header() {
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
-                    to="about"
-                    spy
-                    smooth
-                    duration={duration}
+                    className={active_head === '/about' ? 'active_link' : ''}
+                    to="/about"
+                    // spy
+                    // smooth
+                    // duration={duration}
                   >
                     About Us
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
-                    to="services"
-                    spy
-                    smooth
-                    duration={duration}
+                    className={active_head === '/services' ? 'active_link' : ''}
+                    to="/services"
+                    // spy
+                    // smooth
+                    // duration={duration}
                   >
                     Our Services
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
-                    to="testimonials"
-                    spy
-                    smooth
-                    duration={duration}
+                    className={active_head === '/testimonials' ? 'active_link' : ''}
+                    to="/testimonials"
+                    // spy
+                    // smooth
+                    // duration={duration}
                   >
                     Contact Us
                   </Link>

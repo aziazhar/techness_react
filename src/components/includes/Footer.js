@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
     return (
         <div>
-            <footer class="footer-section pt-100">
+            <footer class="footer-section">
                 <div class="footer-top">
                     <div class="container">
                         <div class="row">
@@ -105,7 +105,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div class="footer-bottom gray-light-bg py-2">
+                {/* <div class="footer-bottom gray-light-bg py-2">
                     <div class="container">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-md-5 col-lg-5">
@@ -134,7 +134,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </footer>
         </div>
     )
