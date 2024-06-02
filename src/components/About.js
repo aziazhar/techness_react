@@ -35,13 +35,13 @@ export default function About() {
     const { onClick } = props;
     return (
       <i
-        class="fa fa-angle-left sliderBtn"
+        class="ti ti-angle-left"
         style={{
           position: "absolute",
           bottom: 0,
-          left: "50%",
+          left: "49%",
           color: "#ff8657",
-          fontSize: "1.5vw",
+          fontSize: "0.9vw",
           border: "1px dashed gainsboro",
           padding: "5px 10px",
           borderRadius: "4px",
@@ -56,13 +56,13 @@ export default function About() {
     const { onClick, style } = props;
     return (
       <i
-        class="fa fa-angle-right sliderBtn"
+        class="ti ti-angle-right"
         style={{
           position: "absolute",
           bottom: 0,
           left: "53.5%",
           color: "#ff8657",
-          fontSize: "1.5vw",
+          fontSize: "0.9vw",
           border: "1px dashed gainsboro",
           padding: "5px 10px",
           borderRadius: "4px",
@@ -83,9 +83,8 @@ export default function About() {
   };
 
   return (
-  
     <div class="main">
-      {/* <!--page header section start--> */}
+      {/* Page Header  */}
       <section
         class="hero-section background-img ptb-100"
         // style="background: url('img/hero-bg-1.jpg')no-repeat bottom center / cover fixed"
@@ -99,7 +98,14 @@ export default function About() {
                   <li>
                     <a onClick={() => navigate("/")}>Home </a>
                   </li>
-                  <i class="fa fa-angle-right headerIcon" />
+                  <i
+                    class="ti ti-angle-right"
+                    style={{
+                      fontSize: "0.8rem",
+                      padding: "0px 10px",
+                      marginTop: "2px",
+                    }}
+                  />
                   <li class="active">Pages </li>
                 </ul>
               </div>
@@ -107,9 +113,9 @@ export default function About() {
           </div>
         </div>
       </section>
-      {/* <!--page header section end--> */}
 
-      {/* <!--our mission section start--> */}
+      {/* Our mission  */}
+
       <section class="our-services-section ptb-100">
         <div class="container">
           <div class="row justify-content-center">
@@ -173,9 +179,8 @@ export default function About() {
           </div>
         </div>
       </section>
-      {/* <!--our mission section end--> */}
 
-      {/* <!--about use second section start--> */}
+      {/* About us  */}
       <section class="imageblock-section switchable switchable-content gray-light-bg">
         <div class="imageblock-section-img col-lg-5 col-md-5">
           <div
@@ -199,7 +204,9 @@ export default function About() {
                   <div class="col-md-6 col-lg-6">
                     <div class="core-idea-single my-3">
                       <div class="d-flex align-items-center pb-3">
-                        <span class="ti-bar-chart mr-2 icon-sm color-primary"></span>
+                        <span class="mr-2 icon-sm color-primary">
+                          <i class="ti ti-bar-chart" />
+                        </span>
                         <h5 class="mb-0">Marketing </h5>
                       </div>
                       <p>
@@ -211,7 +218,9 @@ export default function About() {
                   <div class="col-md-6 col-lg-6">
                     <div class="core-idea-single my-3">
                       <div class="d-flex align-items-center pb-3">
-                        <span class="ti-thought mr-2 icon-sm color-primary"></span>
+                        <span class="mr-2 icon-sm color-primary">
+                          <i class="ti ti-thought" />
+                        </span>
                         <h5 class="mb-0">Communication </h5>
                       </div>
                       <p>
@@ -223,7 +232,9 @@ export default function About() {
                   <div class="col-md-6 col-lg-6">
                     <div class="core-idea-single my-3">
                       <div class="d-flex align-items-center pb-3">
-                        <span class="ti-headphone-alt mr-2 icon-sm color-primary"></span>
+                        <span class="mr-2 icon-sm color-primary">
+                          <i class="ti ti-headphone-alt" />
+                        </span>
                         <h5 class="mb-0">Consultancy </h5>
                       </div>
                       <p>
@@ -235,7 +246,9 @@ export default function About() {
                   <div class="col-md-6 col-lg-6">
                     <div class="core-idea-single my-3">
                       <div class="d-flex align-items-center pb-3">
-                        <span class="ti-cloud-up mr-2 icon-sm color-primary"></span>
+                        <span class="mr-2 icon-sm color-primary">
+                          <i class="ti ti-cloud-up" />
+                        </span>
                         <h5 class="mb-0">Cloud Business </h5>
                       </div>
                       <p>
@@ -251,12 +264,11 @@ export default function About() {
           {/* <!--end of row--> */}
         </div>
       </section>
-      {/* <!--about use second section end--> */}
 
-      {/* <!--client section start--> */}
+      {/* Client section   */}
+
       <section class="client-section ptb-100">
         <div class="container">
-          {/* <!--clients logo start--> */}
           <div class="row justify-content-center">
             <div class="col-md-8">
               <div class="section-heading text-center mb-5">
@@ -296,12 +308,11 @@ export default function About() {
               </Slider>
             </div>
           </div>
-          {/* <!--clients logo end--> */}
         </div>
       </section>
-      {/* <!--client section start-->
 
-<!--our team section start--> */}
+      {/* Our team  */}
+
       <section class="team-member-section gray-light-bg ptb-100">
         <div class="container">
           <div class="row justify-content-center">
@@ -331,22 +342,30 @@ export default function About() {
                   <ul class="list-inline team-social social-icon mt-4 text-white">
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-facebook"></span>
+                        <span>
+                          <i class="ti ti-facebook" />
+                        </span>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-twitter"></span>
+                        <span>
+                          <i class="ti ti-twitter" />
+                        </span>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-github"></span>
+                        <span>
+                          <i class="ti ti-github" />
+                        </span>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-dribbble"></span>
+                        <span>
+                          <i class="ti ti-dribbble" />
+                        </span>
                       </a>
                     </li>
                   </ul>
@@ -368,22 +387,30 @@ export default function About() {
                   <ul class="list-inline team-social social-icon mt-4 text-white">
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-facebook"></span>
+                        <span>
+                          <i class="ti ti-facebook" />
+                        </span>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-twitter"></span>
+                        <span>
+                          <i class="ti ti-twitter" />
+                        </span>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-github"></span>
+                        <span>
+                          <i class="ti ti-github" />
+                        </span>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-dribbble"></span>
+                        <span>
+                          <i class="ti ti-dribbble" />
+                        </span>
                       </a>
                     </li>
                   </ul>
@@ -405,22 +432,30 @@ export default function About() {
                   <ul class="list-inline team-social social-icon mt-4 text-white">
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-facebook"></span>
+                        <span>
+                          <i class="ti ti-facebook" />
+                        </span>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-twitter"></span>
+                        <span>
+                          <i class="ti ti-twitter" />
+                        </span>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-github"></span>
+                        <span>
+                          <i class="ti ti-github" />
+                        </span>
                       </a>
                     </li>
                     <li class="list-inline-item">
                       <a href="#">
-                        <span class="ti-dribbble"></span>
+                        <span>
+                          <i class="ti ti-dribbble" />
+                        </span>
                       </a>
                     </li>
                   </ul>
@@ -430,10 +465,9 @@ export default function About() {
           </div>
         </div>
       </section>
-      {/* <!--our team section end-->
 
+      {/* testimonial  */}
 
-<!--testimonial section start--> */}
       <section class="testimonial-section ptb-100">
         <div class="container">
           <div class="row justify-content-center">
@@ -461,19 +495,29 @@ export default function About() {
                     <div class="client-ratting mt-2">
                       <ul class="list-inline client-ratting-list">
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                       </ul>
                       <h6 class="font-weight-bold">
@@ -506,19 +550,29 @@ export default function About() {
                     <div class="client-ratting mt-2">
                       <ul class="list-inline client-ratting-list">
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                       </ul>
                       <h6 class="font-weight-bold">
@@ -551,19 +605,29 @@ export default function About() {
                     <div class="client-ratting mt-2">
                       <ul class="list-inline client-ratting-list">
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                       </ul>
                       <h6 class="font-weight-bold">
@@ -596,19 +660,29 @@ export default function About() {
                     <div class="client-ratting mt-2">
                       <ul class="list-inline client-ratting-list">
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                         <li class="list-inline-item">
-                          <span class="ti-star ratting-color"></span>
+                          <span className="ratting-color">
+                            <i class="ti ti-star"></i>
+                          </span>
                         </li>
                       </ul>
                       <h6 class="font-weight-bold">
@@ -636,9 +710,8 @@ export default function About() {
           </div>
         </div>
       </section>
-      {/* <!--testimonial section end-->
 
-<!--call to action start--> */}
+      {/* Call to action  */}
       <section
         class="call-to-action ptb-100 background-img"
         // style="background: url('img/hero-bg-2.jpg')no-repeat center center / cover fixed"
@@ -667,7 +740,6 @@ export default function About() {
           </div>
         </div>
       </section>
-      {/* <!--call to action end--> */}
     </div>
   );
 }

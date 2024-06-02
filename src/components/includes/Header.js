@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
+import logo from "../../assets/techness-white-logo.png";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
-
   const navigate = useNavigate();
-  const[active_head, setActiveHead] = useState('')
+  const [active_head, setActiveHead] = useState("");
   useEffect(() => {
     setActiveHead(window.location.pathname);
     window.addEventListener("scroll", isSticky);
@@ -14,24 +14,34 @@ export default function Header() {
     };
   });
 
-  console.log(active_head, 'ff');
   const isSticky = (e) => {
-    console.log('kk');
     const header = document.querySelector(".navbar");
     const scrollTop = window.scrollY;
     scrollTop >= 150
       ? header.classList.add("affix")
       : header.classList.remove("affix");
   };
-  
+
   return (
     <div>
       <header className="header">
         <nav className="navbar navbar-expand-lg fixed-top bg-transparent">
           <div className="container">
-            <a className="navbar-brand" onClick={() => navigate('/')}>
-              <h5 className="text-white mt-3">Techness Solutions</h5>
+            {/* <a className="navbar-brand" onClick={() => navigate('/')}> */}
+            {/* <h5 className="text-white mt-3">Techness Solutions</h5> */}
+            {/* <a class="navbar-brand" href="index.html"><img src="img/logo-white-1x.png" width="180" alt="logo" class="img-fluid"></a>
+            </a> */}
+
+            <a className="navbar-brand">
+              <img
+                src={logo}
+                alt="client"
+                width="60"
+                class="img-fluid rounded-circle shadow-sm"
+                onClick={() => navigate("/")}
+              />{" "}
             </a>
+
             <button
               className="navbar-toggler"
               type="button"
@@ -51,7 +61,7 @@ export default function Header() {
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <Link
-                    className={active_head === '/about' ? 'active_link' : ''}
+                    className={active_head === "/about" ? "active_link" : ""}
                     to="/about"
                     // spy
                     // smooth
@@ -62,7 +72,7 @@ export default function Header() {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className={active_head === '/services' ? 'active_link' : ''}
+                    className={active_head === "/services" ? "active_link" : ""}
                     to="/services"
                     // spy
                     // smooth
@@ -73,7 +83,9 @@ export default function Header() {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className={active_head === '/testimonials' ? 'active_link' : ''}
+                    className={
+                      active_head === "/testimonials" ? "active_link" : ""
+                    }
                     to="/testimonials"
                     // spy
                     // smooth

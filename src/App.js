@@ -9,8 +9,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import Services from "./components/Services";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (

@@ -20,7 +20,6 @@
 16. RESPONSIVE CSS
 =======================*/
 
-
 /* -----------------------------------------
 			   01. RESET CSS
 -------------------------------------------- */
@@ -147,7 +146,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -192,7 +191,7 @@ td {
 
 body {
   background-color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   color: #707070;
   font-weight: 400;
@@ -209,7 +208,7 @@ h3,
 h4,
 h5 {
   margin: 0 0 1rem;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-weight: 600;
   line-height: 1.21;
   color: initial;
@@ -244,7 +243,7 @@ small,
 strong,
 b {
   font-weight: 600;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: "Comfortaa", sans-serif;
 }
 
 a {
@@ -360,11 +359,11 @@ a:hover {
 .solid-btn,
 .primary-solid-btn,
 .primary-outline-btn {
-  padding: .75rem 1.85rem;
-  font-family: 'Comfortaa', sans-serif;
+  padding: 0.75rem 1.85rem;
+  font-family: "Comfortaa", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .primary-solid-btn {
@@ -427,7 +426,7 @@ a:hover {
 /*form field css*/
 .form-control {
   border-color: #ebebeb;
-  padding: .675rem 0.85rem;
+  padding: 0.675rem 0.85rem;
 }
 
 .form-control:focus {
@@ -471,8 +470,8 @@ select.form-control.has-value {
 
 .form-control {
   border-color: #ebebeb;
-  padding: .75rem 0.85rem;
-  height: calc(2.356em + .75rem + 2px);
+  padding: 0.75rem 0.85rem;
+  height: calc(2.356em + 0.75rem + 2px);
 }
 
 /*icon size*/
@@ -501,7 +500,7 @@ select.form-control.has-value {
   right: inherit;
   width: auto;
   height: auto;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .main-menu ul {
@@ -1311,12 +1310,12 @@ a.nav-link.active {
   padding: 0;
 }
 
-.sliderBtn:hover{
+.sliderBtn:hover {
   background-color: #ff8657;
   color: #ffffff !important;
   border: 1px solid #ff8657 !important;
 }
- 
+
 .testimonial_slide > div > div > div > div {
   margin: 0px 10px !important;
   /* padding-right: 20px !important; */

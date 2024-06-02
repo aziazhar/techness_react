@@ -9,22 +9,23 @@ import sliderImg1 from "../assets/client-1.jpg";
 import sliderImg2 from "../assets/client-2.jpg";
 import sliderImg3 from "../assets/client-3.jpg";
 import sliderImg4 from "../assets/client-4.jpg";
+import business from "../assets/business.png";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 
 export default function Services() {
   const navigate = useNavigate();
   const PrevArrow = (props) => {
-    const { onClick, style } = props;
+    const { onClick } = props;
     return (
       <i
-        class="fa fa-angle-left sliderBtn"
+        class="ti ti-angle-left"
         style={{
           position: "absolute",
           bottom: 0,
-          left: "50%",
+          left: "49%",
           color: "#ff8657",
-          fontSize: "1.5vw",
+          fontSize: "0.9vw",
           border: "1px dashed gainsboro",
           padding: "5px 10px",
           borderRadius: "4px",
@@ -36,16 +37,16 @@ export default function Services() {
   };
 
   const NextArrow = (props) => {
-    const { onClick, style } = props;
+    const { onClick } = props;
     return (
       <i
-        class="fa fa-angle-right sliderBtn"
+        class="ti ti-angle-right"
         style={{
           position: "absolute",
           bottom: 0,
           left: "53.5%",
           color: "#ff8657",
-          fontSize: "1.5vw",
+          fontSize: "0.9vw",
           border: "1px dashed gainsboro",
           padding: "5px 10px",
           borderRadius: "4px",
@@ -87,7 +88,14 @@ export default function Services() {
                     <li>
                       <a onClick={() => navigate("/")}>Home </a>
                     </li>
-                    <i class="fa fa-angle-right headerIcon" />
+                    <i
+                      class="ti ti-angle-right"
+                      style={{
+                        fontSize: "0.8rem",
+                        padding: "0px 10px",
+                        marginTop: "2px",
+                      }}
+                    />
                     <li class="active">Pages</li>
                   </ul>
                 </div>
@@ -95,9 +103,9 @@ export default function Services() {
             </div>
           </div>
         </section>
-        {/* <!--page header section end-->
 
-      <!--promo section start--> */}
+        {/* promo section  */}
+
         <section class="promo-section ptb-100">
           <div class="container">
             <div class="row justify-content-center">
@@ -174,9 +182,8 @@ export default function Services() {
             </div>
           </div>
         </section>
-        {/* <!--promo section end-->
 
-      <!--our services section start--> */}
+        {/* services  */}
         <section class="our-services-section ptb-100 gray-light-bg">
           <div class="container">
             <div class="row justify-content-center">
@@ -194,8 +201,8 @@ export default function Services() {
             <div class="row no-gutters">
               <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="single-services single-feature-hover gray-light-bg single-feature text-center p-5 h-100">
-                  <span class="ti-bar-chart primary-bg text-white icon rounded">
-                    <i class="fa fa-bar-chart" style={{ color: "white" }}></i>
+                  <span class="primary-bg text-white icon rounded">
+                    <i class="ti ti-bar-chart " style={{ color: "white" }}></i>
                   </span>
                   <div class="feature-content">
                     <h5 class="mb-2">Search engine optimization</h5>
@@ -208,8 +215,11 @@ export default function Services() {
               </div>
               <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="single-services single-feature-hover gray-light-bg single-feature text-center p-5 h-100">
-                  <span class="ti-layout-media-left-alt primary-bg text-white icon rounded">
-                    <i class="fa fa-desktop" style={{ color: "white" }}></i>
+                  <span class="primary-bg text-white icon rounded">
+                    <i
+                      class="ti ti-layout-media-left-alt"
+                      style={{ color: "white" }}
+                    ></i>
                   </span>
                   <div class="feature-content">
                     <h5 class="mb-2">Social media marketing</h5>
@@ -222,8 +232,8 @@ export default function Services() {
               </div>
               <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="single-services single-feature-hover gray-light-bg single-feature text-center p-5 h-100">
-                  <span class="ti-email primary-bg text-white icon rounded">
-                    <i class="fa fa-envelope" style={{ color: "white" }}></i>
+                  <span class="primary-bg text-white icon rounded">
+                    <i class="ti ti-email" style={{ color: "white" }}></i>
                   </span>
                   <div class="feature-content">
                     <h5 class="mb-2">Email marketing</h5>
@@ -236,8 +246,8 @@ export default function Services() {
               </div>
               <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="single-services single-feature-hover gray-light-bg single-feature text-center p-5 h-100">
-                  <span class="ti-vector primary-bg text-white icon rounded">
-                    <i class="fa fa-globe" style={{ color: "white" }}></i>
+                  <span class="primary-bg text-white icon rounded">
+                    <i class="ti ti-vector" style={{ color: "white" }}></i>
                   </span>
                   <div class="feature-content">
                     <h5 class="mb-2">Creative Web design</h5>
@@ -250,8 +260,8 @@ export default function Services() {
               </div>
               <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="single-services single-feature-hover gray-light-bg single-feature text-center p-5 h-100">
-                  <span class="ti-mobile primary-bg text-white icon rounded">
-                    <i class="fa fa-mobile" style={{ color: "white" }}></i>
+                  <span class="primary-bg text-white icon rounded">
+                    <i class="ti ti-mobile" style={{ color: "white" }}></i>
                   </span>
                   <div class="feature-content">
                     <h5 class="mb-2">Mobile app development</h5>
@@ -264,8 +274,11 @@ export default function Services() {
               </div>
               <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="single-services single-feature-hover gray-light-bg single-feature text-center p-5 h-100">
-                  <span class="ti-announcement primary-bg text-white icon rounded">
-                  <i class="fa fa-bullhorn" style={{color: 'white'}}></i>
+                  <span class="primary-bg text-white icon rounded">
+                    <i
+                      class="ti ti-announcement"
+                      style={{ color: "white" }}
+                    ></i>
                   </span>
                   <div class="feature-content">
                     <h5 class="mb-2">Amazon affiliate marketing</h5>
@@ -279,218 +292,179 @@ export default function Services() {
             </div>
           </div>
         </section>
-        {/* <!--our services section end-->
 
-      <!--testimonial section start--> */}
-        <section class="testimonial-section ptb-100">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-9 col-lg-8">
-                <div class="section-heading mb-5 text-center">
-                  <h2>Testimonials What Clients Say</h2>
-                  <p class="lead">
-                    Rapidiously _____ transparent internal or "organic" _______
-                    whereas resource sucking e-business. Conveniently innovate
-                    compelling ________.
+        {/* Services Details  */}
+
+        <section
+          id="services"
+          style={{ marginTop: "3vw" }}
+          className="our-services-section ptb-100"
+        >
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-md-9 col-lg-8">
+                <div className="section-heading text-center text-center">
+                  <h2>Your One-Stop Hub for Digital Excellence </h2>
+                  <p className="lead">
+                    we offer a wide spectrum of services designed to empower
+                    your online presence and drive your business forward. From
+                    cutting-edge website development to cloud services, SEO, and
+                    digital promotions, we've got you covered.{" "}
                   </p>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12 col-lg-12">
-                <Slider {...testimonials} className="testimonial_slide">
-                  <div class="testimonial_wrap">
-                    <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                      <blockquote>
-                        Assertively procrastinate distributed _____________
-                        whereas equity invested intellectual _______ everything
-                        energistically underwhelm proactive.
-                      </blockquote>
-                      <div class="client-ratting mt-2">
-                        <ul class="list-inline client-ratting-list">
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                        </ul>
-                        <h6 class="font-weight-bold">
-                          5.0{" "}
-                          <small class="font-weight-lighter">BizBite </small>
-                        </h6>
-                      </div>
-                    </div>
-                    <div class="client-info-wrap d-flex align-items-center mt-5">
-                      <div class="client-img mr-3">
-                        <img
-                          src={sliderImg1}
-                          alt="client"
-                          width="60"
-                          class="img-fluid rounded-circle shadow-sm"
-                        />
-                      </div>
-                      <div class="client-info">
-                        <h5 class="mb-0">Austin Cesar</h5>
-                        <p class="mb-0">ThemeTags</p>
-                      </div>
-                    </div>
+            <div className="row">
+              <div className="col-md-4">
+                <div className="single-services text-center mt-3 p-3">
+                  <div className="about-content">
+                    <img src={services1} alt="" className="img-fluid" />
                   </div>
-                  <div class="item">
-                    <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                      <blockquote>
-                        Intrinsicly facilitate functional ___________ without
-                        next-generation meta-services. Compellingly
-                        _____________ worldwide users vis-a-vis enterprise ____
-                        practices.
-                      </blockquote>
-                      <div class="client-ratting mt-2">
-                        <ul class="list-inline client-ratting-list">
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                        </ul>
-                        <h6 class="font-weight-bold">
-                          5.0{" "}
-                          <small class="font-weight-lighter">BizBite </small>
-                        </h6>
-                      </div>
-                    </div>
-                    <div class="client-info-wrap d-flex align-items-center mt-5">
-                      <div class="client-img mr-3">
-                        <img
-                          src={sliderImg2}
-                          alt="client"
-                          width="60"
-                          class="img-fluid rounded-circle shadow-sm"
-                        />
-                      </div>
-                      <div class="client-info">
-                        <h5 class="mb-0">Pirtle Karol</h5>
-                        <p class="mb-0">ThemeTags</p>
-                      </div>
-                    </div>
+                  <div className="feature-content pt-3">
+                    <h5 className="mb-2">Website Development </h5>
+                    <p align="justify">
+                      Your website is your digital storefront, and we craft
+                      beautiful, functional, and user-friendly websites that
+                      leave a lasting impression. Whether you need an elegant
+                      showcase or a robust e-commerce platform, we have the
+                      expertise to make it happen.{" "}
+                    </p>
                   </div>
-                  <div class="item">
-                    <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                      <blockquote>
-                        Interactively grow backend _________ through one
-                        paradigms. Distinctively ___ communicate efficient
-                        information without _________ meta-services.
-                      </blockquote>
-                      <div class="client-ratting mt-2">
-                        <ul class="list-inline client-ratting-list">
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                        </ul>
-                        <h6 class="font-weight-bold">
-                          5.0{" "}
-                          <small class="font-weight-lighter">BizBite </small>
-                        </h6>
-                      </div>
-                    </div>
-                    <div class="client-info-wrap d-flex align-items-center mt-5">
-                      <div class="client-img mr-3">
-                        <img
-                          src={sliderImg3}
-                          alt="client"
-                          width="60"
-                          class="img-fluid rounded-circle shadow-sm"
-                        />
-                      </div>
-                      <div class="client-info">
-                        <h5 class="mb-0">Aminul Islam</h5>
-                        <p class="mb-0">ThemeTags</p>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="single-services text-center mt-3 p-3">
+                  <div className="about-content">
+                    <img src={services2} alt="" className="img-fluid" />
                   </div>
-                  <div class="item">
-                    <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                      <blockquote>
-                        Intrinsicly facilitate functional ___________ without
-                        next-generation meta-services. Compellingly
-                        _____________ worldwide users vis-a-vis enterprise ____
-                        practices.
-                      </blockquote>
-                      <div class="client-ratting mt-2">
-                        <ul class="list-inline client-ratting-list">
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                          <li class="list-inline-item">
-                            <span class="ti-star ratting-color"></span>
-                          </li>
-                        </ul>
-                        <h6 class="font-weight-bold">
-                          5.0{" "}
-                          <small class="font-weight-lighter">BizBite </small>
-                        </h6>
-                      </div>
-                    </div>
-                    <div class="client-info-wrap d-flex align-items-center mt-5">
-                      <div class="client-img mr-3">
-                        <img
-                          src={sliderImg4}
-                          alt="client"
-                          width="60"
-                          class="img-fluid rounded-circle shadow-sm"
-                        />
-                      </div>
-                      <div class="client-info">
-                        <h5 class="mb-0">Pirtle Karol</h5>
-                        <p class="mb-0">ThemeTags</p>
-                      </div>
-                    </div>
+                  <div className="feature-content pt-3">
+                    <h5 className="mb-2">Web App Development </h5>
+                    <p align="justify">
+                      Take your business to the next level with our web app
+                      development services. We design and build tailored web
+                      applications that streamline operations, enhance user
+                      experiences, and boost your efficiency.{" "}
+                    </p>
                   </div>
-                </Slider>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="single-services text-center mt-3 p-3">
+                  <div className="about-content">
+                    <img src={services3} alt="" className="img-fluid" />
+                  </div>
+                  <div className="feature-content pt-3">
+                    <h5 className="mb-2">Mobile App Development </h5>
+                    <p align="justify">
+                      Stay connected with your audience on the go with our
+                      mobile app development expertise. Our mobile apps are
+                      designed for maximum engagement, performance, and user
+                      satisfaction.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="single-services text-center mt-3 p-3">
+                  <div className="about-content">
+                    <img src={services7} alt="" className="img-fluid" />
+                  </div>
+                  <div className="feature-content pt-3">
+                    <h5 className="mb-2">Cloud Services Development </h5>
+                    <p align="justify">
+                      Leverage the power of the cloud to enhance scalability,
+                      security, and efficiency. Our cloud services development
+                      ensures your business is always ready for what's nex.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="single-services text-center mt-3 p-3">
+                  <div className="about-content">
+                    <img src={services5} alt="" className="img-fluid" />
+                  </div>
+                  <div className="feature-content pt-3">
+                    <h5 className="mb-2">SEO Development </h5>
+                    <p align="justify">
+                      Boost your online visibility and attract the right
+                      audience with our SEO services. We optimize your digital
+                      presence to ensure you rank higher in search results and
+                      grow your organic reach.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="single-services text-center mt-3 p-3">
+                  <div className="about-content">
+                    <img src={services6} alt="" className="img-fluid" />
+                  </div>
+                  <div className="feature-content pt-3">
+                    <h5 className="mb-2">Digital Promotion </h5>
+                    <p align="justify">
+                      Reach your target audience effectively with our digital
+                      promotion strategies. We create and implement campaigns
+                      that drive results, boost brand awareness, and increase
+                      your online influence.{" "}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
-        {/* <!--testimonial section end--> */}
+
+        <section id="about" class="about-us ptb-100 gray-light-bg">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="about-content-left">
+                  <h2>We help drive your business </h2>
+                  <p class="lead">
+                    Proactively syndicate open-source e-markets _____ low-risk
+                    high-yield synergy. Professionally ________ visionary
+                    technology before team ______ sources.{" "}
+                  </p>
+
+                  <div class="single-feature my-4">
+                    <div class="d-flex align-items-center mb-2">
+                      <span class="rounded mr-3 icon primary-bg text-white">
+                        <i class="ti ti-bar-chart"></i>
+                      </span>
+                      <h5 class="mb-0">SEO optimization </h5>
+                    </div>
+                    <p>
+                      where we use search _______ to market your product;
+                      _______ paid methods (Pay per _____ Services). Quickly
+                      communicate value-added ___________ vis-a-vis high
+                      standards in ________ communicate wireless{" "}
+                    </p>
+                  </div>
+                  <div class="single-feature my-4">
+                    <div class="d-flex align-items-center mb-2">
+                      <span class="rounded mr-3 icon primary-bg text-white">
+                        <i class="ti ti-layout-media-left-alt"></i>
+                      </span>
+                      <h5 class="mb-0">Social marketing </h5>
+                    </div>
+                    <p>
+                      While browsing Facebook or _______ or even Linkedin, you
+                      ___ subjected to advertisements. Dramatically ____
+                      top-line synergy globally provide ______ to scalable
+                      infomediaries leverage ________ backend process.{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-content-right">
+                  <img src={business} alt="about us" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
