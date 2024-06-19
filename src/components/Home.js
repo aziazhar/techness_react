@@ -107,15 +107,14 @@ export default function Home() {
               <div className="col-md-12 col-lg-6">
                 <div className="hero-content-left text-white">
                   <h1 className="text-white">
-                    We are Digital Agency & Marketing{" "}
+                    Transforming Businesses Through Digital Excellence{" "}
                   </h1>
                   <p className="lead">
-                    Dramatically grow customized potentialities ___-_-___
-                    synergistic alignments. Energistically drive ____.{" "}
+                  Unlock the future of business with transformative digital excellence that drives success.{" "}
                   </p>
 
                   <a href="#" className="btn solid-btn btn-primary">
-                    Contact with us{" "}
+                    Drop your Query{" "}
                   </a>
 
                   <div className="client-section-wrap mt-5">
@@ -203,10 +202,9 @@ export default function Home() {
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="about-content-left">
-              <h2>Digital Business to Internationalized Standard </h2>
-              <p className="lead">
-                At Techness Solution, we offer a range of services designed to
-                take your business to international standards{" "}
+              <h2>Digital your Business to Internationalized Standard </h2>
+              <p className="lead" align="justify">
+              To empower businesses with innovative digital solutions that enable seamless international expansion, fostering growth and success in the global economy.{" "}
               </p>
 
               <div className="single-feature my-4">
@@ -215,13 +213,10 @@ export default function Home() {
                     <i class="ti ti-alarm-clock"></i>
                   </span>
 
-                  <h5 className="mb-0">Consultation and Assessment </h5>
+                  <h5 className="mb-0">Comprehensive Digital Transformation </h5>
                 </div>
-                <p>
-                  We begin by thoroughly assessing your current operations and
-                  identifying areas that require improvement to meet
-                  international standards. Our experts work closely with your
-                  team to craft a tailored strategy.{" "}
+                <p align="justify">
+                We provide end-to-end digital transformation services tailored to your business needs. From initial consultation to implementation, we ensure your business is equipped with the latest technology and strategies to compete on a global scale.{" "}
                 </p>
               </div>
               <div className="single-feature my-4">
@@ -229,13 +224,10 @@ export default function Home() {
                   <span className="rounded mr-3 icon primary-bg text-white">
                     <i class="ti ti-alarm-clock"></i>
                   </span>
-                  <h5 className="mb-0">Quality Assurance </h5>
+                  <h5 className="mb-0"> International Compliance and Standards </h5>
                 </div>
-                <p>
-                  Ensuring the quality of your products and services is a top
-                  priority. We assist in developing quality control systems that
-                  align with international standards and help you maintain
-                  consistency.{" "}
+                <p align="justify">
+                Navigating the complexities of international regulations can be challenging. Our team of experts ensures your business adheres to all relevant international standards, including GDPR, ISO certifications, and more, making your transition smooth and hassle-free.{" "}
                 </p>
               </div>
             </div>
@@ -294,10 +286,8 @@ export default function Home() {
               <div className="core-idea-wrap ptb-100">
                 <div className="section-heading mb-4">
                   <h2>Great Solution for Business </h2>
-                  <p className="lead">
-                    Globally evolve integrated processes ___ backend
-                    communities. Compellingly cultivate business imperatives
-                    before productize ___-__-___ total linkage.{" "}
+                  <p className="lead" align="justify">
+                  At in Techness Solutions, where technology meets innovation. We specialize in delivering comprehensive IT solutions tailored to your unique business needs.{" "}
                   </p>
                 </div>
                 <div className="row">
@@ -307,11 +297,10 @@ export default function Home() {
                         <span className=" mr-2 icon-sm color-primary">
                           <i class="ti ti-bar-chart"></i>
                         </span>
-                        <h5 className="mb-0">Marketing </h5>
+                        <h5 className="mb-0">Business Softwares  </h5>
                       </div>
-                      <p>
-                        Proactively conceptualize clicks-and-mortar "outside ___
-                        box" thinking after cross-unit.{" "}
+                      <p align="justify"> 
+                      Custom software solutions designed to meet your specific business requirement needs.{" "}
                       </p>
                     </div>
                   </div>
@@ -321,11 +310,10 @@ export default function Home() {
                         <span className="mr-2 icon-sm color-primary">
                           <i class="ti ti-thought"></i>
                         </span>
-                        <h5 className="mb-0">Communication </h5>
+                        <h5 className="mb-0">Mobile Apps</h5>
                       </div>
-                      <p>
-                        Intrinsicly seize high-payoff outsourcing _______
-                        functional process improvements.{" "}
+                      <p align="justify"> 
+                      Tailored mobile solutions to elevate your business. Continuous support to keep your app running smoothly.{" "}
                       </p>
                     </div>
                   </div>
@@ -335,11 +323,10 @@ export default function Home() {
                         <span className="mr-2 icon-sm color-primary">
                           <i class="ti ti-headphone-alt"></i>
                         </span>
-                        <h5 className="mb-0">Consultancy </h5>
+                        <h5 className="mb-0">Cloud Services </h5>
                       </div>
-                      <p>
-                        Authoritatively matrix wireless infrastructures
-                        ___-_-___ team building potentialities.{" "}
+                      <p align="justify"> 
+                      Leverage the power of the cloud with our scalable and secure cloud computing solutions.{" "}
                       </p>
                     </div>
                   </div>
@@ -349,11 +336,10 @@ export default function Home() {
                         <span className="mr-2 icon-sm color-primary">
                           <i class="ti ti-cloud-up"></i>
                         </span>
-                        <h5 className="mb-0">Cloud Business </h5>
+                        <h5 className="mb-0">Data Analytics </h5>
                       </div>
-                      <p>
-                        Progressively extend multifunctional potentialities
-                        ___-_-___ cost effective potentialities.{" "}
+                      <p align="justify"> 
+                      Unlock actionable insights and drive business growth with our advanced data analytics solutions.{" "}
                       </p>
                     </div>
                   </div>
@@ -375,11 +361,9 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-md-9 col-lg-8">
               <div className="section-heading text-center mb-5">
-                <h2>We Provide Best Services ___ You </h2>
-                <p className="lead">
-                  These features come standard __ all of our hosting _____.
-                  Dynamically extend ___________ through open-source quickly
-                  niche _______.{" "}
+                <h2>We Provide Best Services for You </h2>
+                <p className="lead" align="justify">
+                At Techness Solutions, we are committed to delivering top-notch IT solutions tailored to your unique business needs. Our goal is to empower your business with the latest technology, ensuring you stay ahead in today’s competitive landscape.{" "}
                 </p>
               </div>
             </div>
@@ -393,11 +377,9 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="features-box-content">
-                  <h5>Custom Control Panel </h5>
-                  <p>
-                    Our intuitive control panel _____ you admin access to ___ of
-                    your DreamHost products. Easily update domain information,
-                    ___ users, adjust email settings ____ access.{" "}
+                  <h5>Business Web Applications </h5>
+                  <p align="justify">
+                  We specialize in developing sophisticated business web applications that drive efficiency, and boost your business growth. Our team of experienced developers, designers, and strategists work collaboratively to deliver tailor-made solutions that meet your specific business needs.{" "}
                   </p>
                 </div>
               </div>
@@ -410,11 +392,9 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="features-box-content">
-                  <h5>Real-Life Human Beings </h5>
-                  <p>
-                    Tech veterans, geeks, and _____ are all standing by __
-                    optimize your experience. Whether you get in touch ____ our
-                    support, read our _________ base, or start a ______.{" "}
+                  <h5>Mobile Applications </h5>
+                  <p align="justify">
+                  We specialize in developing custom mobile applications tailored to meet the unique needs of our clients. Whether you require a native iOS, Android, or cross-platform solution, our team of experienced developers is equipped to deliver high-quality mobile apps that exceed your expectations.{" "}
                   </p>
                 </div>
               </div>
@@ -427,11 +407,9 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="features-box-content">
-                  <h5>1-Click Installer </h5>
-                  <p>
-                    No need to dig ____ a bunch of documentation. ______ install
-                    web apps like _________, Joomla! and more. ______________
-                    administrate economically sound opportunities.{" "}
+                  <h5>Business Websites  </h5>
+                  <p align="justify">
+                   Our team of experts is dedicated to delivering cutting-edge websites that not only captivate your audience but also drive results. From elegant design to seamless functionality, we ensure your online presence stands out in today's competitive landscape. Let us transform your ideas into reality and elevate your brand to new heights. Partner with us for a digital journey that exceeds expectations.{" "}
                   </p>
                 </div>
               </div>
@@ -444,11 +422,9 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="features-box-content">
-                  <h5>100% Uptime Guarantee </h5>
-                  <p>
-                    With multiple datacenter locations, _________ cooling,
-                    emergency generators, and ________ monitoring, we are ____
-                    to offer our 100% ______ Guarantee.{" "}
+                  <h5>Ecommerce Websites</h5>
+                  <p align="justify">
+                  With our expertise in web development, we create seamless online shopping experiences that drive sales and customer engagement. From intuitive user interfaces to secure payment gateways, we ensure your website stands out in the digital marketplace. Our team is dedicated to delivering scalable solutions that grow with your business, backed by cutting-edge technology and innovative design. {" "}
                   </p>
                 </div>
               </div>
@@ -461,11 +437,9 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="features-box-content">
-                  <h5>Solid State Drives (SSD) </h5>
-                  <p>
-                    With SSDs, your website, _______, and database queries are
-                    ______ by our calculations. _______ orchestrate worldwide
-                    niche markets ___-_-___ end-to-end infomediaries.{" "}
+                  <h5>Cloud Developement </h5>
+                  <p align="justify">
+                  Our expert team ensures seamless integration, security, and performance for your cloud-based applications. Explore our range of services, including AWS, Azure, and Google Cloud, to drive innovation and efficiency in your organization. Let us guide you through the cloud journey, from initial planning to ongoing support, maximizing your ROI every step of the way. Trust us to elevate your business to new heights in digital era.{" "}
                   </p>
                 </div>
               </div>
@@ -478,11 +452,9 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="features-box-content">
-                  <h5>Award-Winning Support </h5>
-                  <p>
-                    No question is too ______, or too complex for ___ team of
-                    experts. Synergistically synergize Our in-house support
-                    _____ and service team are ____ for you 24/7, 365.{" "}
+                  <h5>Data Analytics </h5>
+                  <p align="justify">
+                  Unlock the power of data with our comprehensive analytics solutions tailored for your IT needs. From extracting valuable insights to predicting trends, our team harnesses cutting-edge tools and techniques to drive informed decision-making. Whether it's optimizing operations or enhancing customer experiences, our analytics services empower your business to thrive in today's data-driven world. {" "}
                   </p>
                 </div>
               </div>
