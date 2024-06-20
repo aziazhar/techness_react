@@ -106,7 +106,7 @@ export default function Services() {
 
         {/* promo section  */}
 
-        <section class="promo-section ptb-100">
+        {/* <section class="promo-section ptb-100">
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-8 col-md-9">
@@ -181,7 +181,7 @@ export default function Services() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* services  */}
         <section class="our-services-section ptb-100 gray-light-bg">
@@ -189,11 +189,9 @@ export default function Services() {
             <div class="row justify-content-center">
               <div class="col-md-9 col-lg-8">
                 <div class="section-heading text-center mb-5">
-                  <h2>We help drive your ________ go faster</h2>
-                  <p class="lead">
-                    Energistically enhance user-centric e-markets ______
-                    client-focused initiatives. ________________ reconceptualize
-                    proactive intellectual top-line imperatives.
+                  <h2>We help drive your go faster</h2>
+                  <p class="lead" align="justify">
+                  We understand the speed of business today demands agility, innovation, precision. 
                   </p>
                 </div>
               </div>
@@ -205,10 +203,9 @@ export default function Services() {
                     <i class="ti ti-bar-chart " style={{ color: "white" }}></i>
                   </span>
                   <div class="feature-content">
-                    <h5 class="mb-2">Search engine optimization</h5>
-                    <p>
-                      where we use search _______ to market your product;
-                      _______ paid methods (Pay per _____ (PPC) Services)
+                    <h5 class="mb-2">Business Softwares</h5>
+                    <p align="justify">
+                    Custom software solutions designed to meet your specific business requirement needs. 
                     </p>
                   </div>
                 </div>
@@ -222,10 +219,9 @@ export default function Services() {
                     ></i>
                   </span>
                   <div class="feature-content">
-                    <h5 class="mb-2">Social media marketing</h5>
-                    <p>
-                      While browsing Facebook or _______ or even Linkedin, you
-                      ___ subjected to advertisements.
+                    <h5 class="mb-2">Mobile Apps</h5>
+                    <p align="justify">
+                    Tailored mobile solutions to elevate your business. Continuous support to keep your app running smoothly. 
                     </p>
                   </div>
                 </div>
@@ -236,10 +232,9 @@ export default function Services() {
                     <i class="ti ti-email" style={{ color: "white" }}></i>
                   </span>
                   <div class="feature-content">
-                    <h5 class="mb-2">Email marketing</h5>
-                    <p>
-                      Email marketing is one __ the most popular strategies
-                      _______ by full-service digital marketing ________.
+                    <h5 class="mb-2">Cloud Services</h5>
+                    <p align="justify"> 
+                    Leverage the power of the cloud with our scalable and secure cloud computing solutions.
                     </p>
                   </div>
                 </div>
@@ -250,10 +245,9 @@ export default function Services() {
                     <i class="ti ti-vector" style={{ color: "white" }}></i>
                   </span>
                   <div class="feature-content">
-                    <h5 class="mb-2">Creative Web design</h5>
-                    <p>
-                      Your website provides a _____ for interested users to
-                      _____ more about business, your ________ and services.
+                    <h5 class="mb-2">Data Analytics</h5>
+                    <p align="justify"> 
+                    Unlock actionable insights and drive business growth with our advanced data analytics solutions.
                     </p>
                   </div>
                 </div>
@@ -264,10 +258,9 @@ export default function Services() {
                     <i class="ti ti-mobile" style={{ color: "white" }}></i>
                   </span>
                   <div class="feature-content">
-                    <h5 class="mb-2">Mobile app development</h5>
-                    <p>
-                      We are also working __ mobile App Development that __
-                      skillful and in developing _ Mobile application
+                    <h5 class="mb-2">Website development</h5>
+                    <p align="justify"> 
+                    Website involves addressing the needs and interests of your target audience while ensuring the content.
                     </p>
                   </div>
                 </div>
@@ -281,10 +274,9 @@ export default function Services() {
                     ></i>
                   </span>
                   <div class="feature-content">
-                    <h5 class="mb-2">Amazon affiliate marketing</h5>
-                    <p>
-                      Thrive was founded on ___ conviction that businesses can
-                      ________ their competitors with a ______ website.
+                    <h5 class="mb-2">Ecommerce Website  </h5>
+                    <p align="justify"> 
+                     Unlocknparalleled online shopping experience, offering a vast selection of products at competitive prices. 
                     </p>
                   </div>
                 </div>
@@ -305,12 +297,12 @@ export default function Services() {
               <div className="col-md-9 col-lg-8">
                 <div className="section-heading text-center text-center">
                   <h2>Your One-Stop Hub for Digital Excellence </h2>
-                  <p className="lead">
+                  {/* <p className="lead">
                     we offer a wide spectrum of services designed to empower
                     your online presence and drive your business forward. From
                     cutting-edge website development to cloud services, SEO, and
                     digital promotions, we've got you covered.{" "}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -321,13 +313,9 @@ export default function Services() {
                     <img src={services1} alt="" className="img-fluid" />
                   </div>
                   <div className="feature-content pt-3">
-                    <h5 className="mb-2">Website Development </h5>
+                    <h5 className="mb-2">Business Softwares  </h5>
                     <p align="justify">
-                      Your website is your digital storefront, and we craft
-                      beautiful, functional, and user-friendly websites that
-                      leave a lasting impression. Whether you need an elegant
-                      showcase or a robust e-commerce platform, we have the
-                      expertise to make it happen.{" "}
+                    Welcome to Techness Solutions, where we revolutionize the way businesses operate through innovative software solutions. Our suite of business software is designed to streamline operations, enhance productivity, and drive growth. Explore our offerings and discover how we can help your business thrive in today's competitive landscape.{" "}
                     </p>
                   </div>
                 </div>
@@ -338,12 +326,9 @@ export default function Services() {
                     <img src={services2} alt="" className="img-fluid" />
                   </div>
                   <div className="feature-content pt-3">
-                    <h5 className="mb-2">Web App Development </h5>
+                    <h5 className="mb-2">Mobile Apps </h5>
                     <p align="justify">
-                      Take your business to the next level with our web app
-                      development services. We design and build tailored web
-                      applications that streamline operations, enhance user
-                      experiences, and boost your efficiency.{" "}
+                    At Techness Solutions, we specialize in creating innovative mobile applications that cater to your business needs. Our team of experts is dedicated to providing top-notch mobile app development services, ensuring that your app is not only functional but also engaging and end user features with user-friendly.{" "}
                     </p>
                   </div>
                 </div>
@@ -354,12 +339,9 @@ export default function Services() {
                     <img src={services3} alt="" className="img-fluid" />
                   </div>
                   <div className="feature-content pt-3">
-                    <h5 className="mb-2">Mobile App Development </h5>
+                    <h5 className="mb-2">Cloud Services </h5>
                     <p align="justify">
-                      Stay connected with your audience on the go with our
-                      mobile app development expertise. Our mobile apps are
-                      designed for maximum engagement, performance, and user
-                      satisfaction.{" "}
+                    At Techness Solutions, we offer a comprehensive suite of cloud services designed to empower your business with flexibility, efficiency, and scalability. Whether you're looking to migrate to the cloud, optimize your current infrastructure, or develop a new cloud-based application, we have the expertise and resources to meet your needs.{" "}
                     </p>
                   </div>
                 </div>
@@ -370,11 +352,9 @@ export default function Services() {
                     <img src={services7} alt="" className="img-fluid" />
                   </div>
                   <div className="feature-content pt-3">
-                    <h5 className="mb-2">Cloud Services Development </h5>
+                    <h5 className="mb-2">Data Analytics</h5>
                     <p align="justify">
-                      Leverage the power of the cloud to enhance scalability,
-                      security, and efficiency. Our cloud services development
-                      ensures your business is always ready for what's nex.{" "}
+                    Welcome to Techness Solutions, where we harness the power of data to drive your business forward. Our comprehensive Data Analytics services are designed to transform raw data into actionable insights, helping you make informed decisions, optimize operations, and unlock new end opportunities.{" "}
                     </p>
                   </div>
                 </div>
@@ -385,12 +365,9 @@ export default function Services() {
                     <img src={services5} alt="" className="img-fluid" />
                   </div>
                   <div className="feature-content pt-3">
-                    <h5 className="mb-2">SEO Development </h5>
+                    <h5 className="mb-2">Website development </h5>
                     <p align="justify">
-                      Boost your online visibility and attract the right
-                      audience with our SEO services. We optimize your digital
-                      presence to ensure you rank higher in search results and
-                      grow your organic reach.{" "}
+                    At Techness Solutions, we specialize in creating stunning, high-performance websites tailored to meet your unique business needs. Whether you're a small startup or an established enterprise, our team of experts is dedicated to delivering innovative web solutions that drive growth and enhance user engagement.{" "}
                     </p>
                   </div>
                 </div>
@@ -401,12 +378,9 @@ export default function Services() {
                     <img src={services6} alt="" className="img-fluid" />
                   </div>
                   <div className="feature-content pt-3">
-                    <h5 className="mb-2">Digital Promotion </h5>
+                    <h5 className="mb-2">Ecommerce Website </h5>
                     <p align="justify">
-                      Reach your target audience effectively with our digital
-                      promotion strategies. We create and implement campaigns
-                      that drive results, boost brand awareness, and increase
-                      your online influence.{" "}
+                    Welcome to Techness Solutions, your one-stop destination for cutting-edge technology products and exceptional service. At Techness Solutions, we are committed to bringing you the latest in consumer electronics, smart home devices, and innovative gadgets that enhance your everyday life.{" "}
                     </p>
                   </div>
                 </div>
@@ -421,10 +395,8 @@ export default function Services() {
               <div class="col-md-6">
                 <div class="about-content-left">
                   <h2>We help drive your business </h2>
-                  <p class="lead">
-                    Proactively syndicate open-source e-markets _____ low-risk
-                    high-yield synergy. Professionally ________ visionary
-                    technology before team ______ sources.{" "}
+                  <p class="lead" align="justify">
+                  Accelerating your business with cutting-edge technology solutions. Streamline operations, amplify productivity, and stay ahead with our innovative content strategies.{" "}
                   </p>
 
                   <div class="single-feature my-4">
@@ -434,11 +406,8 @@ export default function Services() {
                       </span>
                       <h5 class="mb-0">SEO optimization </h5>
                     </div>
-                    <p>
-                      where we use search _______ to market your product;
-                      _______ paid methods (Pay per _____ Services). Quickly
-                      communicate value-added ___________ vis-a-vis high
-                      standards in ________ communicate wireless{" "}
+                    <p align="justify">
+                    Your premier destination for cutting-edge technological solutions tailored to meet your every need. Our team of expert developers, engineers, and designers is dedicated to delivering innovative solutions that propel your business into the digital future. From bespoke software development to robust cybersecurity measures, we specialize in providing comprehensive services that ensure your technological infrastructure remains ahead of the curve. {" "}
                     </p>
                   </div>
                   <div class="single-feature my-4">
@@ -448,11 +417,8 @@ export default function Services() {
                       </span>
                       <h5 class="mb-0">Social marketing </h5>
                     </div>
-                    <p>
-                      While browsing Facebook or _______ or even Linkedin, you
-                      ___ subjected to advertisements. Dramatically ____
-                      top-line synergy globally provide ______ to scalable
-                      infomediaries leverage ________ backend process.{" "}
+                    <p align="justify">
+                    Dive into a world of cutting-edge technology tailored to elevate your business to new heights. Our team of experts is dedicated to providing bespoke solutions designed to streamline your operations and amplify your success. From custom software development to robust cybersecurity solutions, we've got you covered. Stay ahead of the curve with our industry-leading insights and stay connected with our community of tech enthusiasts. {" "}
                     </p>
                   </div>
                 </div>

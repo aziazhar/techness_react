@@ -1,71 +1,35 @@
-import React from "react";
+import React, { useRef } from 'react';
 import { useNavigate } from "react-router-dom";
+import emailjs from '@emailjs/browser';
 
 const Testimonials = () => {
   const navigate = useNavigate();
+  const form = useRef();
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_igs7nce', 'template_uxhdl7n', form.current, {
+        publicKey: 'Ysa77Bzxx5JSr-Ah6',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+      e.target.reset()
+  };
+
+
+
   return (
     <div>
-      {/* contact us section start */}
-      {/* <section id="contact" class="contact-us-section ptb-100 gray-light-bg">
-         <div class="container">
-             <div class="row justify-content-around">
-                 <div class="col-12 pb-3 message-box d-none">
-                     <div class="alert alert-danger"></div>
-                 </div>
-                 <div class="col-md-6">
-                     <div class="contact-us-form white-bg rounded p-5">
-                         <h4>Ready to get started? </h4>
-                         <form action="#" method="POST" id="contactForm1" class="contact-us-form">
-                             <div class="form-row">
-                                 <div class="col-12">
-                                     <div class="form-group">
-                                         <input type="text" class="form-control" name="name" placeholder="Enter name" required="required" />
-                                     </div>
-                                 </div>
-                                 <div class="col-12">
-                                     <div class="form-group">
-                                         <input type="email" class="form-control" name="email" placeholder="Enter email" required="required" />
-                                     </div>
-                                 </div>
-                                 <div class="col-12">
-                                     <div class="form-group">
-                                         <textarea name="message" id="message" class="form-control" rows="7" cols="25" placeholder="Message"></textarea>
-                                     </div>
-                                 </div>
-                                 <div class="col-12">
-                                     <div class="form-check d-inline-flex align-items-center mb-2">
-                                         <input type="checkbox" class="form-check-input" id="checkInfo" />
-                                         <label class="form-check-label" for="checkInfo">Save my information for _____ use </label>
-                                     </div>
-                                 </div>
-                                 <div class="col-sm-12 mt-3">
-                                     <button type="submit" class="btn primary-solid-btn" id="btnContactUs">
-                                        Send Message
-                                     </button>
-                                 </div>
-                             </div>
-                         </form>
-                     </div>
-                 </div>
-                 <div class="col-md-5">
-                     <div class="contact-us-content">
-                         <h2>Looking for a excellent Business idea? </h2>
-                         <p class="lead">Feel free to get in touch with us. Whether you have questions, feedback, or require assistance with our services, we're here to help. Please fill out the form below, and we'll respondas soon as possible.. </p>
 
-                         <hr class="my-5" />
-
-                         <h5>Touch via </h5>
-                        
-                         <br />
-                         <span>Phone: +91 8838166026, 9600295907 </span>  <br />
-                         <span>Email:  <a href="mailto:aziazhar111996@gmail.com" class="link-color">aziazhar111996@gmail.com </a></span>
-
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </section> */}
-      {/* contact us section end */}
       <div class="main">
         {/* <!--page header section start--> */}
         <section
@@ -111,17 +75,29 @@ const Testimonials = () => {
               <div class="col-md-9 col-lg-9">
                 <div class="section-heading mb-4">
                   <h2>Reach us quickly</h2>
-                  <p class="lead">
-                    We provide profissional services ___ grow your business and
-                    _________ sell digital product. Increase _____ by showing
-                    true dynamics __ your website.
+                  <p class="lead" align="justify">
+                  Accelerating progress with innovative tech solutions for your business's success
                   </p>
                 </div>
               </div>
             </div>
             <div class="row justify-content-between align-items-center">
               <div class="col-md-6">
-                <form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <form ref={form} onSubmit={sendEmail}
                   action="#"
                   method="POST"
                   id="contactForm1"
@@ -133,7 +109,7 @@ const Testimonials = () => {
                         <input
                           type="text"
                           class="form-control"
-                          name="name"
+                          name="user_name"
                           placeholder="Enter name"
                           required="required"
                         />
@@ -143,8 +119,8 @@ const Testimonials = () => {
                       <div class="form-group">
                         <input
                           type="text"
-                          name="company"
-                          value=""
+                          name="user_company"
+                          // value=""
                           size="40"
                           class="form-control"
                           id="company"
@@ -159,7 +135,7 @@ const Testimonials = () => {
                         <input
                           type="email"
                           class="form-control"
-                          name="email"
+                          name="user_email"
                           placeholder="Enter email"
                           required="required"
                         />
@@ -169,8 +145,8 @@ const Testimonials = () => {
                       <div class="form-group">
                         <input
                           type="text"
-                          name="phone"
-                          value=""
+                          name="user_phone"
+                          // value=""
                           class="form-control"
                           id="phone"
                           placeholder="Your Phone"
@@ -182,7 +158,7 @@ const Testimonials = () => {
                     <div class="col-12">
                       <div class="form-group">
                         <textarea
-                          name="message"
+                          name="user_message"
                           id="message"
                           class="form-control"
                           rows="7"
@@ -192,7 +168,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                     <div class="col-12">
-                      <div class="form-check d-inline-flex align-items-center mb-2">
+                      {/* <div class="form-check d-inline-flex align-items-center mb-2">
                         <input
                           type="checkbox"
                           class="form-check-input"
@@ -201,7 +177,7 @@ const Testimonials = () => {
                         <label class="form-check-label" for="checkInfo">
                           Save my information for _____ use
                         </label>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div class="row">
@@ -216,13 +192,41 @@ const Testimonials = () => {
                     </div>
                   </div>
                 </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <p class="form-message" />
               </div>
               <div class="col-md-5">
                 <div class="contact-info-wrap">
                   <ul class="list-creative">
                     <li>
-                      <dl class="list-terms-medium address">
+                      {/* <dl class="list-terms-medium address">
                         <dt>Address</dt>
                         <dd>
                           <p>
@@ -230,7 +234,7 @@ const Testimonials = () => {
                             United States
                           </p>
                         </dd>
-                      </dl>
+                      </dl> */}
                     </li>
                     <li>
                       <dl class="list-terms-medium phone">
@@ -238,12 +242,12 @@ const Testimonials = () => {
                         <dd>
                           <ul class="list-comma">
                             <li>
-                              Support:
-                              <a href="tel:+1-800-700-6200">+1-800-700-6200 </a>
+                             <strong>Support:</strong>
+                              <a href="tel:+91 9600295907">+91 9600295907 </a>
                             </li>
                             <li>
-                              Sales:
-                              <a href="tel:+1-800-955-4567">+1-800-955-4567 </a>
+                            <strong> Sales:</strong>
+                              <a href="tel:+91 9626858177">+91 9626858177 </a>
                             </li>
                           </ul>
                         </dd>
@@ -255,15 +259,15 @@ const Testimonials = () => {
                         <dd>
                           <ul class="list-comma">
                             <li>
-                              Support:
-                              <a href="mailto:support@yourdomain.com">
-                                support@yourdomain.com
+                            <strong>Support:</strong>:
+                              <a href="mailto:technesssolutions@gmail.com">
+                              technesssolutions@gmail.com
                               </a>
                             </li>
                             <li>
-                              Query:
-                              <a href="mailto:query@yourdomain.com">
-                                query@yourdomain.com
+                            <strong>Sales:</strong>:
+                              <a href="mailto:aziazhartechnesssolutions@gmail.com">
+                              aziazhartechnesssolutions@gmail.com
                               </a>
                             </li>
                           </ul>

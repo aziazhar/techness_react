@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import logo from "../../assets/techness-white-logo.png";
+// import logo from "../../assets/techness-white-logo.png";
+import logo from "../../assets/logos_techness/2 logo.png";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
@@ -36,7 +37,7 @@ export default function Header() {
               <img
                 src={logo}
                 alt="client"
-                width="60"
+                width="150"
                 class="img-fluid rounded-circle shadow-sm"
                 onClick={() => navigate("/")}
               />{" "}

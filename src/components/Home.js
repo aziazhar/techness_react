@@ -471,12 +471,12 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-md-9 col-lg-8">
               <div className="section-heading mb-5 text-center">
-                <h2>Testimonials What Clients Say </h2>
-                <p className="lead">
+                <h2>Testimonials - What Clients Say ...! </h2>
+                {/* <p className="lead">
                   Rapidiously _____ transparent internal or "organic" _______
                   whereas resource sucking e-business. Conveniently innovate
                   compelling ________.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

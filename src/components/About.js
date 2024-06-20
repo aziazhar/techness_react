@@ -121,11 +121,9 @@ export default function About() {
           <div class="row justify-content-center">
             <div class="col-md-9 col-lg-8">
               <div class="section-heading text-center text-center">
-                <h2>We are Agency, We ______ Solutions </h2>
-                <p class="lead">
-                  Uniquely strategize vertical materials _______ real-time
-                  web-readiness. Progressively transition ___-____ processes
-                  client technology.{" "}
+                <h2>About us  </h2>
+                <p class="lead" align="justify">
+                Delivering exceptional IT solutions tailored to propel businesses forward with efficiency and ingenuity. Techness Solutions is your strategic partner for seamless digital transformation, offering expertise, reliability, and innovation.{" "}
                 </p>
               </div>
             </div>
@@ -138,11 +136,8 @@ export default function About() {
                 </div>
                 <div class="feature-content pt-3">
                   <h5 class="mb-2">Our Mission </h5>
-                  <p>
-                    where we use search _______ to market your product; _______
-                    paid methods (Pay per _____ (PPC) Services) web-enabled
-                    testing{" "}
-                  </p>
+                  <p align="justify">
+                  At Techness Solutions, our mission is to revolutionize the tech landscape by providing cutting-edge solutions that empower businesses to thrive in the digital age. We are committed to delivering innovative technology products and services that exceed our clients' expectations, enabling them to stay ahead of the curve in an ever-evolving industry. With a focus on creativity, integrity, and excellence, we strive to be the trusted partner our clients turn to for all their technological needs.{" "}</p>
                 </div>
               </div>
             </div>
@@ -153,10 +148,8 @@ export default function About() {
                 </div>
                 <div class="feature-content pt-3">
                   <h5 class="mb-2">Our Vision </h5>
-                  <p>
-                    While browsing Facebook or _______ or even Linkedin, sticky
-                    ____________ exceptional you are subjected __ advertisements
-                    fashion.{" "}
+                  <p align="justify">
+                  At Techness Solutions, our vision is to harness the power of technology to transform businesses and elevate human potential. We envision a world where innovation knows no bounds, where cutting-edge solutions pave the way for unprecedented growth and efficiency. With a relentless focus on pushing the boundaries of what's possible, we strive to be at the forefront of technological advancements, offering our clients unparalleled opportunities to thrive in the digital age.{" "}
                   </p>
                 </div>
               </div>
@@ -168,10 +161,8 @@ export default function About() {
                 </div>
                 <div class="feature-content pt-3">
                   <h5 class="mb-2">Why Us? </h5>
-                  <p>
-                    Email marketing is one __ the most popular strategies
-                    _______ by full-service digital marketing ________
-                    future-proof.{" "}
+                  <p align="justify">
+                  In the vast landscape of technological solutions, why choose us? At Techness Solutions, we pride ourselves on our unwavering commitment to innovation, excellence, and client satisfaction. Our team comprises forward-thinking experts who not only stay abreast of the latest technological advancements but also anticipate future trends, ensuring that our clients receive cutting-edge solutions tailored to their unique needs and  trusted partner on the journey to digital transformation.  {" "}
                   </p>
                 </div>
               </div>
@@ -188,72 +179,66 @@ export default function About() {
             // style="background: url('img/about-img.jpg')no-repeat center center / cover; opacity: 1;"
           ></div>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-7">
-              <div class="core-idea-wrap ptb-100">
-                <div class="section-heading mb-4">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-7">
+              <div className="core-idea-wrap ptb-100">
+                <div className="section-heading mb-4">
                   <h2>Great Solution for Business </h2>
-                  <p class="lead">
-                    Globally evolve integrated processes ___ backend
-                    communities. Compellingly cultivate business imperatives
-                    before productize ___-__-___ total linkage.{" "}
+                  <p className="lead" align="justify">
+                  At in Techness Solutions, where technology meets innovation. We specialize in delivering comprehensive IT solutions tailored to your unique business needs.{" "}
                   </p>
                 </div>
-                <div class="row">
-                  <div class="col-md-6 col-lg-6">
-                    <div class="core-idea-single my-3">
-                      <div class="d-flex align-items-center pb-3">
-                        <span class="mr-2 icon-sm color-primary">
-                          <i class="ti ti-bar-chart" />
+                <div className="row">
+                  <div className="col-md-6 col-lg-6">
+                    <div className="core-idea-single my-3">
+                      <div className="d-flex align-items-center pb-3">
+                        <span className=" mr-2 icon-sm color-primary">
+                          <i class="ti ti-bar-chart"></i>
                         </span>
-                        <h5 class="mb-0">Marketing </h5>
+                        <h5 className="mb-0">Business Softwares  </h5>
                       </div>
-                      <p>
-                        Proactively conceptualize clicks-and-mortar "outside ___
-                        box" thinking after cross-unit.{" "}
+                      <p align="justify"> 
+                      Custom software solutions designed to meet your specific business requirement needs.{" "}
                       </p>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-6">
-                    <div class="core-idea-single my-3">
-                      <div class="d-flex align-items-center pb-3">
-                        <span class="mr-2 icon-sm color-primary">
-                          <i class="ti ti-thought" />
+                  <div className="col-md-6 col-lg-6">
+                    <div className="core-idea-single my-3">
+                      <div className="d-flex align-items-center pb-3">
+                        <span className="mr-2 icon-sm color-primary">
+                          <i class="ti ti-thought"></i>
                         </span>
-                        <h5 class="mb-0">Communication </h5>
+                        <h5 className="mb-0">Mobile Apps</h5>
                       </div>
-                      <p>
-                        Intrinsicly seize high-payoff outsourcing _______
-                        functional process improvements.{" "}
+                      <p align="justify"> 
+                      Tailored mobile solutions to elevate your business. Continuous support to keep your app running smoothly.{" "}
                       </p>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-6">
-                    <div class="core-idea-single my-3">
-                      <div class="d-flex align-items-center pb-3">
-                        <span class="mr-2 icon-sm color-primary">
-                          <i class="ti ti-headphone-alt" />
+                  <div className="col-md-6 col-lg-6">
+                    <div className="core-idea-single my-3">
+                      <div className="d-flex align-items-center pb-3">
+                        <span className="mr-2 icon-sm color-primary">
+                          <i class="ti ti-headphone-alt"></i>
                         </span>
-                        <h5 class="mb-0">Consultancy </h5>
+                        <h5 className="mb-0">Cloud Services </h5>
                       </div>
-                      <p>
-                        Authoritatively matrix wireless infrastructures
-                        ___-_-___ team building potentialities.{" "}
+                      <p align="justify"> 
+                      Leverage the power of the cloud with our scalable and secure cloud computing solutions.{" "}
                       </p>
                     </div>
                   </div>
-                  <div class="col-md-6 col-lg-6">
-                    <div class="core-idea-single my-3">
-                      <div class="d-flex align-items-center pb-3">
-                        <span class="mr-2 icon-sm color-primary">
-                          <i class="ti ti-cloud-up" />
+                  <div className="col-md-6 col-lg-6">
+                    <div className="core-idea-single my-3">
+                      <div className="d-flex align-items-center pb-3">
+                        <span className="mr-2 icon-sm color-primary">
+                          <i class="ti ti-cloud-up"></i>
                         </span>
-                        <h5 class="mb-0">Cloud Business </h5>
+                        <h5 className="mb-0">Data Analytics </h5>
                       </div>
-                      <p>
-                        Progressively extend multifunctional potentialities
-                        ___-_-___ cost effective potentialities.{" "}
+                      <p align="justify"> 
+                      Unlock actionable insights and drive business growth with our advanced data analytics solutions.{" "}
                       </p>
                     </div>
                   </div>
