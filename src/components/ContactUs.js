@@ -1,35 +1,31 @@
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
-const Testimonials = () => {
+const ContactUs = () => {
   const navigate = useNavigate();
   const form = useRef();
-
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_igs7nce', 'template_uxhdl7n', form.current, {
-        publicKey: 'Ysa77Bzxx5JSr-Ah6',
+      .sendForm("service_igs7nce", "template_uxhdl7n", form.current, {
+        publicKey: "Ysa77Bzxx5JSr-Ah6",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
-        },
+          console.log("FAILED...", error.text);
+        }
       );
-      e.target.reset()
+    e.target.reset();
   };
-
-
 
   return (
     <div>
-
       <div class="main">
         {/* <!--page header section start--> */}
         <section
@@ -76,28 +72,17 @@ const Testimonials = () => {
                 <div class="section-heading mb-4">
                   <h2>Reach us quickly</h2>
                   <p class="lead" align="justify">
-                  Accelerating progress with innovative tech solutions for your business's success
+                    Accelerating progress with innovative tech solutions for
+                    your business's success
                   </p>
                 </div>
               </div>
             </div>
             <div class="row justify-content-between align-items-center">
               <div class="col-md-6">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <form ref={form} onSubmit={sendEmail}
+                <form
+                  ref={form}
+                  onSubmit={sendEmail}
                   action="#"
                   method="POST"
                   id="contactForm1"
@@ -193,33 +178,6 @@ const Testimonials = () => {
                   </div>
                 </form>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <p class="form-message" />
               </div>
               <div class="col-md-5">
@@ -242,11 +200,11 @@ const Testimonials = () => {
                         <dd>
                           <ul class="list-comma">
                             <li>
-                             <strong>Support:</strong>
+                              <strong>Support:</strong>
                               <a href="tel:+91 9600295907">+91 9600295907 </a>
                             </li>
                             <li>
-                            <strong> Sales:</strong>
+                              <strong> Sales:</strong>
                               <a href="tel:+91 9626858177">+91 9626858177 </a>
                             </li>
                           </ul>
@@ -259,15 +217,15 @@ const Testimonials = () => {
                         <dd>
                           <ul class="list-comma">
                             <li>
-                            <strong>Support:</strong>:
+                              <strong>Support:</strong>:
                               <a href="mailto:technesssolutions@gmail.com">
-                              technesssolutions@gmail.com
+                                technesssolutions@gmail.com
                               </a>
                             </li>
                             <li>
-                            <strong>Sales:</strong>:
+                              <strong>Sales:</strong>:
                               <a href="mailto:aziazhartechnesssolutions@gmail.com">
-                              aziazhartechnesssolutions@gmail.com
+                                aziazhartechnesssolutions@gmail.com
                               </a>
                             </li>
                           </ul>
@@ -297,4 +255,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default ContactUs;

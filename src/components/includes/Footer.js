@@ -151,7 +151,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div class="footer-bottom gray-light-bg py-2">
+        <div class="footer-top py-2">
           <div class="container">
             <div class="row align-items-center justify-content-between">
               <div class="col-md-5 col-lg-5">
@@ -167,25 +167,25 @@ export default function Footer() {
                 <div class="social-nav text-right">
                   <ul class="list-unstyled social-list mb-0">
                     <li class="list-inline-item tooltip-hover">
-                      <a href="#" class="rounded">
+                      <a href="#" class="rounded text-white">
                         <i class="ti ti-facebook" aria-hidden="true"></i>
                       </a>
                       <div class="tooltip-item">Facebook </div>
                     </li>
                     <li class="list-inline-item tooltip-hover">
-                      <a href="#" class="rounded">
+                      <a href="#" class="rounded text-white">
                         <i class="ti ti-twitter" aria-hidden="true"></i>
                       </a>
                       <div class="tooltip-item">Twitter </div>
                     </li>
                     <li class="list-inline-item tooltip-hover">
-                      <a href="#" class="rounded">
+                      <a href="#" class="rounded text-white">
                         <i class="ti ti-linkedin" aria-hidden="true"></i>
                       </a>
                       <div class="tooltip-item">Linkedin </div>
                     </li>
                     <li class="list-inline-item tooltip-hover">
-                      <a href="#" class="rounded">
+                      <a href="#" class="rounded text-white">
                         <i class="ti ti-dribbble" aria-hidden="true"></i>
                       </a>
                       <div class="tooltip-item">Instagram</div>

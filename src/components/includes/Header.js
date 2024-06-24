@@ -52,7 +52,7 @@ export default function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i class="fa fa-bars text-white"></i>
+              <i class="ti ti-menu text-white"></i>
             </button>
 
             <div
@@ -85,9 +85,9 @@ export default function Header() {
                 <li className="nav-item">
                   <Link
                     className={
-                      active_head === "/testimonials" ? "active_link" : ""
+                      active_head === "/contact" ? "active_link" : ""
                     }
-                    to="/testimonials"
+                    to="/contact"
                     // spy
                     // smooth
                     // duration={duration}

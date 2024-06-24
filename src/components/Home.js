@@ -97,7 +97,7 @@ export default function Home() {
 
   return (
     <>
-      <div classNameName="main">
+      <div className="main">
         <section
           className="hero-section pt-100 background-img"
           // style="background: url('img/hero-bg-4.jpg')no-repeat center center / cover"
