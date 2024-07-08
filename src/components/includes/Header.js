@@ -38,7 +38,7 @@ export default function Header() {
                 src={logo}
                 alt="client"
                 width="150"
-                class="img-fluid rounded-circle shadow-sm"
+                className="img-fluid rounded-circle shadow-sm"
                 onClick={() => navigate("/")}
               />{" "}
             </a>

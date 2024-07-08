@@ -200,11 +200,11 @@ const ContactUs = () => {
                         <dd>
                           <ul class="list-comma">
                             <li>
-                              <strong>Support:</strong>
+                              <strong>Support: </strong>
                               <a href="tel:+91 9600295907">+91 9600295907 </a>
                             </li>
                             <li>
-                              <strong> Sales:</strong>
+                              <strong> Sales: </strong>
                               <a href="tel:+91 9626858177">+91 9626858177 </a>
                             </li>
                           </ul>
@@ -217,13 +217,13 @@ const ContactUs = () => {
                         <dd>
                           <ul class="list-comma">
                             <li>
-                              <strong>Support:</strong>:
+                              <strong>Support: </strong>
                               <a href="mailto:technesssolutions@gmail.com">
                                 technesssolutions@gmail.com
                               </a>
                             </li>
                             <li>
-                              <strong>Sales:</strong>:
+                              <strong>Sales: </strong>
                               <a href="mailto:aziazhartechnesssolutions@gmail.com">
                                 aziazhartechnesssolutions@gmail.com
                               </a>

@@ -21,16 +21,6 @@ import Slider from "react-slick";
 
 export default function About() {
   const navigate = useNavigate();
-
-  var settings = {
-    slidesToShow: 7,
-    slidesToScroll: 7,
-    autoplay: true,
-    autoplaySpeed: 500,
-    infinite: true,
-    speed: 80000,
-    // dots: true,
-  };
   const PrevArrow = (props) => {
     const { onClick } = props;
     return (
@@ -72,15 +62,50 @@ export default function About() {
       />
     );
   };
-  var testimonials = {
+
+  var clientSLider = {
+    slidesToShow: 7,
+    slidesToScroll: 6,
+    // autoplay: true,
+    infinite: true,
+    speed: 80000,
+  };
+
+  const testimonialSlider = {
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    infinite: true,
-    speed: 2000, // Adjust speed of slide transition
+    // autoplay: true,
+    // autoplaySpeed: 5000,
+    // infinite: true,
+    speed: 8000,
+    responsive: [
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
+    // dots: true,
   };
+
 
   return (
     <div class="main">
@@ -268,7 +293,7 @@ export default function About() {
           </div>
           <div class="row align-items-center">
             <div class="col-md-12">
-              <Slider {...settings} className="testimonial_slide logoSlide">
+              <Slider {...clientSLider} className="testimonial_slide logoSlide">
                 <div class="item single-client">
                   <img src={sliderImg1} alt="client logo" class="client-img" />
                 </div>
@@ -469,7 +494,7 @@ export default function About() {
           </div>
           <div class="row">
             <div class="col-md-12 col-lg-12">
-              <Slider {...testimonials} className="testimonial_slide">
+              <Slider {...testimonialSlider} className="testimonial_slide">
                 <div class="testimonial_wrap">
                   <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
                     <blockquote>
