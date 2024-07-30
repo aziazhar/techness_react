@@ -52,7 +52,7 @@ const ContactUs = () => {
                         marginTop: "2px",
                       }}
                     />
-                    <li class="active">Pages</li>
+                    <li class="active">Contact us </li>
                   </ul>
                 </div>
               </div>

@@ -13,6 +13,7 @@ import client1 from "../assets/client-1.jpg";
 import client2 from "../assets/client-2.jpg";
 import client3 from "../assets/client-3.jpg";
 import client4 from "../assets/client-4.jpg";
+import usericon from "../assets/usericon.jpg"
 import team1 from "../assets/team-1.jpg";
 import team2 from "../assets/team-2.jpg";
 import team3 from "../assets/team-3.jpg";
@@ -131,7 +132,7 @@ export default function About() {
                       marginTop: "2px",
                     }}
                   />
-                  <li class="active">Pages </li>
+                  <li class="active">About us </li>
                 </ul>
               </div>
             </div>
@@ -277,7 +278,7 @@ export default function About() {
 
       {/* Client section   */}
 
-      <section class="client-section ptb-100">
+      {/* <section class="client-section ptb-100">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-8">
@@ -319,11 +320,11 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Our team  */}
 
-      <section class="team-member-section gray-light-bg ptb-100">
+      {/* <section class="team-member-section gray-light-bg ptb-100">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-7 col-md-8">
@@ -474,7 +475,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* testimonial  */}
 
@@ -484,11 +485,11 @@ export default function About() {
             <div class="col-md-9 col-lg-8">
               <div class="section-heading mb-5 text-center">
                 <h2>Testimonials What Clients Say </h2>
-                <p class="lead">
+                {/* <p class="lead">
                   Rapidiously _____ transparent internal or "organic" _______
                   whereas resource sucking e-business. Conveniently innovate
                   compelling ________.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -497,10 +498,8 @@ export default function About() {
               <Slider {...testimonialSlider} className="testimonial_slide">
                 <div class="testimonial_wrap">
                   <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                    <blockquote>
-                      Assertively procrastinate distributed _____________
-                      whereas equity invested intellectual _______ everything
-                      energistically underwhelm proactive.
+                  <blockquote>
+                    From the outset, Techness Solutions demonstrated a deep understanding of our needs. They meticulously evaluated our existing systems and identified key areas for improvement. 
                     </blockquote>
                     <div class="client-ratting mt-2">
                       <ul class="list-inline client-ratting-list">
@@ -538,24 +537,22 @@ export default function About() {
                   <div class="client-info-wrap d-flex align-items-center mt-5">
                     <div class="client-img mr-3">
                       <img
-                        src={client1}
+                        src={usericon}
                         alt="client"
                         width="60"
                         class="img-fluid rounded-circle shadow-sm"
                       />
                     </div>
-                    <div class="client-info">
-                      <h5 class="mb-0">Austin Cesar </h5>
-                      <p class="mb-0">ThemeTags </p>
+                    <div className="client-info">
+                      <h5 className="mb-0">Siddharth  </h5>
+                      <p className="mb-0">Physiocare  </p>
                     </div>
                   </div>
                 </div>
                 <div class="testimonial_wrap">
                   <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                    <blockquote>
-                      Intrinsicly facilitate functional ___________ without
-                      next-generation meta-services. Compellingly _____________
-                      worldwide users vis-a-vis enterprise ____ practices.
+                  <blockquote>
+                    I had the pleasure of working with Techness Solutions on a recent project, and I couldn't be more impressed with their expertise and professionalism. From the initial consultation to the final delivery.
                     </blockquote>
                     <div class="client-ratting mt-2">
                       <ul class="list-inline client-ratting-list">
@@ -593,24 +590,22 @@ export default function About() {
                   <div class="client-info-wrap d-flex align-items-center mt-5">
                     <div class="client-img mr-3">
                       <img
-                        src={client2}
+                        src={usericon}
                         alt="client"
                         width="60"
                         class="img-fluid rounded-circle shadow-sm"
                       />
                     </div>
-                    <div class="client-info">
-                      <h5 class="mb-0">Pirtle Karol </h5>
-                      <p class="mb-0">ThemeTags </p>
+                    <div className="client-info">
+                      <h5 className="mb-0">Balaji </h5>
+                      <p className="mb-0">Newton</p>
                     </div>
                   </div>
                 </div>
                 <div class="testimonial_wrap">
                   <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                    <blockquote>
-                      Interactively grow backend _________ through one
-                      paradigms. Distinctively ___ communicate efficient
-                      information without _________ meta-services.
+                  <blockquote>
+                    What truly sets Techness Solutions apart is their commitment to customer satisfaction. They went above & beyond to ensure that every detail was addressed and that we were completely satisfied with the result. 
                     </blockquote>
                     <div class="client-ratting mt-2">
                       <ul class="list-inline client-ratting-list">
@@ -648,24 +643,22 @@ export default function About() {
                   <div class="client-info-wrap d-flex align-items-center mt-5">
                     <div class="client-img mr-3">
                       <img
-                        src={client3}
+                        src={usericon}
                         alt="client"
                         width="60"
                         class="img-fluid rounded-circle shadow-sm"
                       />
                     </div>
-                    <div class="client-info">
-                      <h5 class="mb-0">Aminul Islam </h5>
-                      <p class="mb-0">ThemeTags </p>
+                    <div className="client-info">
+                      <h5 className="mb-0">Aslam </h5>
+                      <p className="mb-0">Jiyacare </p>
                     </div>
                   </div>
                 </div>
                 <div class="testimonial_wrap">
                   <div class="testimonial-single shadow-sm gray-light-bg rounded p-4">
-                    <blockquote>
-                      Intrinsicly facilitate functional ___________ without
-                      next-generation meta-services. Compellingly _____________
-                      worldwide users vis-a-vis enterprise ____ practices.
+                  <blockquote>
+                    I highly recommend Techness Solutions to any organization looking for reliable and innovative IT solutions. They are a true partner in every sense of the word, and I look forward to working with them.
                     </blockquote>
                     <div class="client-ratting mt-2">
                       <ul class="list-inline client-ratting-list">
@@ -703,15 +696,15 @@ export default function About() {
                   <div class="client-info-wrap d-flex align-items-center mt-5">
                     <div class="client-img mr-3">
                       <img
-                        src={client4}
+                        src={usericon}
                         alt="client"
                         width="60"
                         class="img-fluid rounded-circle shadow-sm"
                       />
                     </div>
-                    <div class="client-info">
-                      <h5 class="mb-0">Pirtle Karol </h5>
-                      <p class="mb-0">ThemeTags </p>
+                    <div className="client-info">
+                      <h5 className="mb-0">Meeran </h5>
+                      <p className="mb-0">Naviagtion Guide</p>
                     </div>
                   </div>
                 </div>
@@ -720,6 +713,8 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      
 
       {/* Call to action  */}
       <section

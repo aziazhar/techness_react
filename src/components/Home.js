@@ -3,6 +3,7 @@ import heroOne from "../assets/hero-one.svg";
 import heroTwo from "../assets/hero-two.svg";
 import heroThree from "../assets/hero-three.svg";
 import About from "./About";
+import ContactUs from "./ContactUs";
 import services1 from "../assets/service1.jpg";
 import services2 from "../assets/service2.jpg";
 import services3 from "../assets/service3.jpg";
@@ -24,6 +25,10 @@ import clients1 from "../assets/client-1.jpg";
 import clients2 from "../assets/client-2.jpg";
 import clients3 from "../assets/client-3.jpg";
 import clients4 from "../assets/client-4.jpg";
+
+import usericon from "../assets/usericon.jpg"
+
+// import { BrowserRouter as Router, Route, Link } from "react-router-dom"; 
 
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
@@ -107,16 +112,18 @@ export default function Home() {
               <div className="col-md-12 col-lg-6">
                 <div className="hero-content-left text-white">
                   <h1 className="text-white">
-                    Transforming Businesses Through Digital Excellence{" "}
+                    Transform your Business through Digital Excellence : ){" "}
                   </h1>
                   <p className="lead">
                   Unlock the future of business with transformative digital excellence that drives success.{" "}
                   </p>
 
-                  <a href="#" className="btn solid-btn btn-primary">
-                    Drop your Query{" "}
-                  </a>
-
+                  {/* <a href={ContactUs} */}
+{/*                   
+                  <Link to="/" className="btn solid-btn btn-primary">
+                    Drop your Query</Link> */}
+                  {/* </a> */}
+{/* 
                   <div className="client-section-wrap mt-5">
                     <p>Trusted by companies like: </p>
                     <ul className="list-inline">
@@ -153,7 +160,7 @@ export default function Home() {
                         />
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-md-12 col-lg-5">
@@ -486,9 +493,7 @@ export default function Home() {
                 <div className="testimonial_wrap">
                   <div className="testimonial-single shadow-sm gray-light-bg rounded p-4">
                     <blockquote>
-                      Assertively procrastinate distributed _____________
-                      whereas equity invested intellectual _______ everything
-                      energistically underwhelm proactive.
+                    From the outset, Techness Solutions demonstrated a deep understanding of our needs. They meticulously evaluated our existing systems and identified key areas for improvement. 
                     </blockquote>
                     <div className="client-ratting mt-2">
                       <ul className="list-inline client-ratting-list">
@@ -527,24 +532,22 @@ export default function Home() {
                   <div className="client-info-wrap d-flex align-items-center mt-5">
                     <div className="client-img mr-3">
                       <img
-                        src={clients1}
+                        src={usericon}
                         alt="client"
                         width="60"
                         className="img-fluid rounded-circle shadow-sm"
                       />
                     </div>
                     <div className="client-info">
-                      <h5 className="mb-0">Austin Cesar </h5>
-                      <p className="mb-0">ThemeTags </p>
+                      <h5 className="mb-0">Siddharth  </h5>
+                      <p className="mb-0">Physiocare  </p>
                     </div>
                   </div>
                 </div>
                 <div className="testimonial_wrap">
                   <div className="testimonial-single shadow-sm gray-light-bg rounded p-4">
                     <blockquote>
-                      Intrinsicly facilitate functional ___________ without
-                      next-generation meta-services. Compellingly _____________
-                      worldwide users vis-a-vis enterprise ____ practices.
+                    I had the pleasure of working with Techness Solutions on a recent project, and I couldn't be more impressed with their expertise and professionalism. From the initial consultation to the final delivery.
                     </blockquote>
                     <div className="client-ratting mt-2">
                       <ul className="list-inline client-ratting-list">
@@ -583,24 +586,22 @@ export default function Home() {
                   <div className="client-info-wrap d-flex align-items-center mt-5">
                     <div className="client-img mr-3">
                       <img
-                        src={clients2}
+                        src={usericon}
                         alt="client"
                         width="60"
                         className="img-fluid rounded-circle shadow-sm"
                       />
                     </div>
                     <div className="client-info">
-                      <h5 className="mb-0">Pirtle Karol </h5>
-                      <p className="mb-0">ThemeTags </p>
+                      <h5 className="mb-0">Balaji </h5>
+                      <p className="mb-0">Newton</p>
                     </div>
                   </div>
                 </div>
                 <div className="testimonial_wrap">
                   <div className="testimonial-single shadow-sm gray-light-bg rounded p-4">
                     <blockquote>
-                      Interactively grow backend _________ through one
-                      paradigms. Distinctively ___ communicate efficient
-                      information without _________ meta-services.
+                    What truly sets Techness Solutions apart is their commitment to customer satisfaction. They went above & beyond to ensure that every detail was addressed and that we were completely satisfied with the result. 
                     </blockquote>
                     <div className="client-ratting mt-2">
                       <ul className="list-inline client-ratting-list">
@@ -639,24 +640,22 @@ export default function Home() {
                   <div className="client-info-wrap d-flex align-items-center mt-5">
                     <div className="client-img mr-3">
                       <img
-                        src={clients3}
+                        src={usericon}
                         alt="client"
                         width="60"
                         className="img-fluid rounded-circle shadow-sm"
                       />
                     </div>
                     <div className="client-info">
-                      <h5 className="mb-0">Aminul Islam </h5>
-                      <p className="mb-0">ThemeTags </p>
+                      <h5 className="mb-0">Aslam </h5>
+                      <p className="mb-0">Jiyacare </p>
                     </div>
                   </div>
                 </div>
                 <div className="testimonial_wrap">
                   <div className="testimonial-single shadow-sm gray-light-bg rounded p-4">
                     <blockquote>
-                      Intrinsicly facilitate functional ___________ without
-                      next-generation meta-services. Compellingly _____________
-                      worldwide users vis-a-vis enterprise ____ practices.
+                    I highly recommend Techness Solutions to any organization looking for reliable and innovative IT solutions. They are a true partner in every sense of the word, and I look forward to working with them.
                     </blockquote>
                     <div className="client-ratting mt-2">
                       <ul className="list-inline client-ratting-list">
@@ -695,15 +694,15 @@ export default function Home() {
                   <div className="client-info-wrap d-flex align-items-center mt-5">
                     <div className="client-img mr-3">
                       <img
-                        src={clients4}
+                        src={usericon}
                         alt="client"
                         width="60"
                         className="img-fluid rounded-circle shadow-sm"
                       />
                     </div>
                     <div className="client-info">
-                      <h5 className="mb-0">Pirtle Karol </h5>
-                      <p className="mb-0">ThemeTags </p>
+                      <h5 className="mb-0">Meeran </h5>
+                      <p className="mb-0">Naviagtion Guide</p>
                     </div>
                   </div>
                 </div>

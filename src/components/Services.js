@@ -96,7 +96,7 @@ export default function Services() {
                         marginTop: "2px",
                       }}
                     />
-                    <li class="active">Pages</li>
+                    <li class="active"> Services</li>
                   </ul>
                 </div>
               </div>

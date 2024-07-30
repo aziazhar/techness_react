@@ -9,38 +9,11 @@ export default function Footer() {
             <div class="row">
               <div class="col-md-9">
                 <div class="row footer-top-wrap">
-                  <div class="col-md-3 col-sm-6">
-                    <div class="footer-nav-wrap">
-                      <h4>QUICK LINKS </h4>
-                      <ul class="nav flex-column">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">
-                            Make Appointment{" "}
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">
-                            Department Services{" "}
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">
-                            Our Case Studies{" "}
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">
-                            Our Business Growth{" "}
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="footer-nav-wrap">
                       <h4>COMPANY </h4>
                       <ul class="nav flex-column">
-                        <li class="nav-item">
+                        {/* <li class="nav-item">
                           <a class="nav-link" href="#">
                             About Our Services{" "}
                           </a>
@@ -59,11 +32,40 @@ export default function Footer() {
                           <a class="nav-link" href="#">
                             Check Our Careers{" "}
                           </a>
+                        </li> */}
+                        <p align="justify">Techness is a top-notch software company that delivers innovative and user-friendly software solutions to businesses of all sizes. </p>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6">
+                    <div class="footer-nav-wrap">
+                      <h4>QUICK LINKS </h4>
+                      <ul class="nav flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">
+                            Home{" "}
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                            About us{" "}
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                           Our Services{" "}
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                           Contact {" "}
+                          </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div class="col-md-3 col-sm-6">
+           
+                  {/* <div class="col-md-3 col-sm-6">
                     <div class="footer-nav-wrap">
                       <h4>LEGAL </h4>
                       <ul class="nav flex-column">
@@ -89,29 +91,29 @@ export default function Footer() {
                         </li>
                       </ul>
                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
+                  </div> */}
+                  <div class="col-md-4 col-sm-6">
                     <div class="footer-nav-wrap">
-                      <h4>SUPPORT </h4>
+                      <h4>Social Media   </h4>
                       <ul class="nav flex-column">
                         <li class="nav-item">
                           <a class="nav-link" href="#">
-                            Contact{" "}
+                            Whatsapp{" "}
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">
-                            Knowledge Base{" "}
+                            Instagram{" "}
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">
-                            Forums{" "}
+                            LinkedIn {" "}
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">
-                            System Status{" "}
+                            Google Business{" "}
                           </a>
                         </li>
                       </ul>
@@ -129,19 +131,19 @@ export default function Footer() {
                           <span>
                             <i class="ti ti-location-pin"></i>
                           </span>{" "}
-                          1234 Street Name, ____ Name, USA{" "}
+                         Shollinganalur, Chennai{" "}
                         </li>
                         <li class="d-flex align-items-center py-2">
                           <span>
                             <i class="ti ti-email"></i>
                           </span>{" "}
-                          you@domain.com{" "}
+                          technesssolutions@gmail.com {" "}
                         </li>
                         <li class="d-flex align-items-center py-2">
                           <span>
                             <i class="ti ti-mobile"></i>
                           </span>{" "}
-                          (123) 456-7890 - (123) 456-7890{" "}
+                         +91 9600295907 | +91 8838166026{" "}
                         </li>
                       </ul>
                     </div>
